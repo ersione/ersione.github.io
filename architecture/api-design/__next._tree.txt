@@ -1,0 +1,2 @@
+:HL["/_next/static/chunks/07b8d068379b2b31.css","style"]
+0:{"buildId":"6wSYd5Esy6SsDa6gkppnN","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"mdxPath","paramType":"oc","paramKey":"architecture/api-design","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
