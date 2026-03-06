@@ -1,0 +1,8 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /tags/
+Disallow: /posts
+
+Sitemap: https://blog.ersione.com/sitemap.xml
