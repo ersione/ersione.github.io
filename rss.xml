@@ -5,9 +5,185 @@
     <link>https://ersione.github.io</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 07 Mar 2026 18:23:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 20:26:03 GMT</lastBuildDate>
     <atom:link href="https://ersione.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>대량 트래픽 발생 당시 캡처로 다시 보는 운영 포인트</title>
+      <link>https://ersione.github.io/software-architecture/revisiting-operational-points-from-heavy-traffic-captures</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/revisiting-operational-points-from-heavy-traffic-captures</guid>
+      <description>대량 트래픽 당시 직접 남긴 운영 캡처와 모니터링 경험을 기준으로, 운영자가 어떤 포인트를 보고 판단했는지 다시 정리합니다.</description>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>nike-the-draw</category>
+      <category>operations</category>
+      <category>traffic</category>
+      <category>software-architecture</category>
+    </item>
+    <item>
+      <title>The Draw 운영에서 배치와 캐시 초기화가 맡고 있던 역할</title>
+      <link>https://ersione.github.io/software-architecture/role-of-batches-and-cache-in-the-draw</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/role-of-batches-and-cache-in-the-draw</guid>
+      <description>The Draw 운영 경험을 기준으로 배치와 캐시 초기화가 왜 중요한 역할을 했는지 정리합니다.</description>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>nike-the-draw</category>
+      <category>operations</category>
+      <category>traffic</category>
+      <category>software-architecture</category>
+    </item>
+    <item>
+      <title>추첨, 재추첨, 구매 제한은 어떻게 연결되어 있었나</title>
+      <link>https://ersione.github.io/software-architecture/how-draw-redraw-and-purchase-restrictions-connected</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/how-draw-redraw-and-purchase-restrictions-connected</guid>
+      <description>Nike The Draw 운영 흐름에서 추첨, 재추첨, 구매 제한, 당첨자 rule이 어떤 구조로 이어졌는지 정리합니다.</description>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>nike-the-draw</category>
+      <category>operations</category>
+      <category>software-architecture</category>
+    </item>
+    <item>
+      <title>Nike The Draw 운영 구조 다시 읽기</title>
+      <link>https://ersione.github.io/software-architecture/rereading-nike-the-draw-operating-structure</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/rereading-nike-the-draw-operating-structure</guid>
+      <description>Nike The Draw에서 등록, 응모, 추첨, 운영자 개입, 구매 흐름이 어떻게 연결되어 있었는지 운영 경험을 바탕으로 다시 정리합니다.</description>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>nike-the-draw</category>
+      <category>operations</category>
+      <category>software-architecture</category>
+    </item>
+    <item>
+      <title>운영 중 로그 레벨을 바꾸는 도구는 왜 필요했나</title>
+      <link>https://ersione.github.io/infra-devops/why-dynamic-log-level-tools-matter-in-operations</link>
+      <guid isPermaLink="true">https://ersione.github.io/infra-devops/why-dynamic-log-level-tools-matter-in-operations</guid>
+      <description>운영 중 문제가 발생했을 때 재배포 없이 더 많은 단서를 확보하기 위해 왜 log4j 기반 런타임 동적 로그 레벨 조정 도구가 필요했는지 정리합니다.</description>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>operations</category>
+      <category>logging</category>
+      <category>infra-devops</category>
+    </item>
+    <item>
+      <title>어드민 세션 관리 기능은 왜 필요했는가</title>
+      <link>https://ersione.github.io/infra-devops/admin-session-management-as-operations-tooling</link>
+      <guid isPermaLink="true">https://ersione.github.io/infra-devops/admin-session-management-as-operations-tooling</guid>
+      <description>운영자는 어떤 기능을 가져야 하는가라는 관점에서, 어드민 세션 관리 기능이 왜 필요했고 어떤 운영 문제를 해결하려 했는지 정리합니다.</description>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>operations</category>
+      <category>admin</category>
+      <category>infra-devops</category>
+    </item>
+    <item>
+      <title>운영 로그는 어떻게 설계하고 봐야 하는가</title>
+      <link>https://ersione.github.io/infra-devops/how-to-design-and-read-operational-logs</link>
+      <guid isPermaLink="true">https://ersione.github.io/infra-devops/how-to-design-and-read-operational-logs</guid>
+      <description>커머스 플랫폼 운영에서 로그가 왜 단순 출력이 아니라 장애 해석 도구였는지, 서비스별 로그 관점을 기준으로 정리합니다.</description>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>operations</category>
+      <category>logging</category>
+      <category>infra-devops</category>
+    </item>
+    <item>
+      <title>배치 스케줄러를 운영 문서 관점에서 다시 정리해보기</title>
+      <link>https://ersione.github.io/infra-devops/rethinking-batch-schedulers-in-commerce-operations</link>
+      <guid isPermaLink="true">https://ersione.github.io/infra-devops/rethinking-batch-schedulers-in-commerce-operations</guid>
+      <description>커머스 플랫폼 운영에서 배치가 어떤 역할을 맡고 있었는지, 실제 운영 경험과 스케줄 가시화 관점에서 다시 정리합니다.</description>
+      <pubDate>Mon, 16 Mar 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>operations</category>
+      <category>scheduler</category>
+      <category>infra-devops</category>
+    </item>
+    <item>
+      <title>주문/어드민 성능 문제를 어떻게 분석하고 튜닝했는가</title>
+      <link>https://ersione.github.io/backend/analyzing-and-tuning-order-admin-performance</link>
+      <guid isPermaLink="true">https://ersione.github.io/backend/analyzing-and-tuning-order-admin-performance</guid>
+      <description>주문과 어드민 영역의 성능 문제를 어떤 기준으로 분석하고, 병목을 어떻게 분리해 튜닝했는지 운영 경험을 바탕으로 정리합니다.</description>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>order</category>
+      <category>inventory</category>
+      <category>performance</category>
+      <category>backend</category>
+    </item>
+    <item>
+      <title>부분반품 환불 금액은 어떻게 다시 계산해야 하는가</title>
+      <link>https://ersione.github.io/backend/how-to-recalculate-partial-return-refunds</link>
+      <guid isPermaLink="true">https://ersione.github.io/backend/how-to-recalculate-partial-return-refunds</guid>
+      <description>부분반품이 전체 취소보다 어려운 이유와, 환불 금액 재계산에서 무엇을 어떤 순서로 다시 봐야 하는지 실제 계산을 정리하고 개선했던 경험을 바탕으로 정리합니다.</description>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>order</category>
+      <category>inventory</category>
+      <category>pricing</category>
+      <category>backend</category>
+    </item>
+    <item>
+      <title>대량 트래픽에서 병목은 어디서 생기고 어떻게 줄였는가</title>
+      <link>https://ersione.github.io/backend/how-bottlenecks-appeared-under-heavy-traffic</link>
+      <guid isPermaLink="true">https://ersione.github.io/backend/how-bottlenecks-appeared-under-heavy-traffic</guid>
+      <description>Nike 관련 서비스 운영 경험을 기준으로 대량 트래픽에서 병목이 어디에서 나타나고 어떤 식으로 줄였는지 정리합니다.</description>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>order</category>
+      <category>inventory</category>
+      <category>performance</category>
+      <category>backend</category>
+    </item>
+    <item>
+      <title>주문 안정화를 위해 재고 처리 구조를 어떻게 봤는가</title>
+      <link>https://ersione.github.io/backend/how-i-looked-at-inventory-for-order-stability</link>
+      <guid isPermaLink="true">https://ersione.github.io/backend/how-i-looked-at-inventory-for-order-stability</guid>
+      <description>커머스 플랫폼 적응 초기에 주문 안정화의 핵심 축으로 왜 재고를 먼저 봐야 했는지, 그리고 어떤 구조와 전략을 주목했는지 정리합니다.</description>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>order</category>
+      <category>inventory</category>
+      <category>backend</category>
+      <category>performance</category>
+    </item>
+    <item>
+      <title>Broadleaf/Breeze 커스터마이징 포인트 정리</title>
+      <link>https://ersione.github.io/software-architecture/broadleaf-breeze-customization-points</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/broadleaf-breeze-customization-points</guid>
+      <description>Broadleaf/Breeze를 다루면서 반복적으로 만났던 관리자 확장, 도메인 확장, 권한, 운영 설정 같은 커스터마이징 포인트를 정리합니다.</description>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>broadleaf</category>
+      <category>breeze</category>
+      <category>software-architecture</category>
+      <category>operations</category>
+    </item>
+    <item>
+      <title>Breeze Commerce를 빠르게 이해할 때 먼저 봐야 했던 것들</title>
+      <link>https://ersione.github.io/software-architecture/what-to-look-at-first-in-breeze-commerce</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/what-to-look-at-first-in-breeze-commerce</guid>
+      <description>Broadleaf를 먼저 살펴본 뒤 실제 적응 단계에서 Breeze Commerce 구조를 빠르게 파악하기 위해 무엇을 먼저 봐야 했는지 정리합니다.</description>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>broadleaf</category>
+      <category>breeze</category>
+      <category>software-architecture</category>
+      <category>inventory</category>
+    </item>
     <item>
       <title>K8s CPU Quota Throttling 커널 패치</title>
       <link>https://ersione.github.io/infra-devops/kubernetes-cpu-quota-throttling-kernel-bug</link>
@@ -19,6 +195,30 @@
       <category>cpu-throttling</category>
       <category>kernel</category>
       <category>kubecon</category>
+    </item>
+    <item>
+      <title>Broadleaf Commerce를 어떻게 분석했는가</title>
+      <link>https://ersione.github.io/software-architecture/how-i-analyzed-broadleaf-commerce-test</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/how-i-analyzed-broadleaf-commerce-test</guid>
+      <description>처음 보는 커머스 플랫폼 Broadleaf Commerce를 데모, 문서, 로컬 실행, 관리자 확장 구조 관점에서 어떤 순서로 해석했는지 정리합니다.</description>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>broadleaf</category>
+      <category>breeze</category>
+      <category>software-architecture</category>
+    </item>
+    <item>
+      <title>왜 GS SHOP은 Broadleaf 과제를 냈을까</title>
+      <link>https://ersione.github.io/software-architecture/why-gs-shop-gave-broadleaf-test</link>
+      <guid isPermaLink="true">https://ersione.github.io/software-architecture/why-gs-shop-gave-broadleaf-test</guid>
+      <description>GS SHOP 이직 과정에서 받은 Broadleaf Commerce 과제가 단순한 구현 테스트가 아니라, 실제 커머스 플랫폼 적응력을 보기 위한 구조 해석 과제였다고 해석한 배경을 정리합니다.</description>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>commerce-platform</category>
+      <category>broadleaf</category>
+      <category>breeze</category>
+      <category>software-architecture</category>
     </item>
     <item>
       <title>K8s Dashboard 접근 권한 가이드</title>
