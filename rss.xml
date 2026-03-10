@@ -5,7 +5,7 @@
     <link>https://blog.ersione.com</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Mar 2026 16:05:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 18:28:20 GMT</lastBuildDate>
     <atom:link href="https://blog.ersione.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -95,7 +95,7 @@
       <category>infra-devops</category>
     </item>
     <item>
-      <title>배치 스케줄러를 운영 문서 관점에서 다시 정리해보기</title>
+      <title>배치 스케줄러를 운영 관점에서 다시 정리해보기</title>
       <link>https://blog.ersione.com/infra-devops/rethinking-batch-schedulers-in-commerce-operations</link>
       <guid isPermaLink="true">https://blog.ersione.com/infra-devops/rethinking-batch-schedulers-in-commerce-operations</guid>
       <description>커머스 플랫폼 운영에서 배치가 어떤 역할을 맡고 있었는지, 실제 운영 경험과 스케줄 가시화 관점에서 다시 정리합니다.</description>
