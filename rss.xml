@@ -5,9 +5,174 @@
     <link>https://blog.ersione.com</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 14 Mar 2026 15:19:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 11:44:50 GMT</lastBuildDate>
     <atom:link href="https://blog.ersione.com/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>Fiserv AAA 제거 + NaverPay 도메인 변경</title>
+      <link>https://blog.ersione.com/infra-devops/fiserv-aaa-removal-and-naverpay-domain-change</link>
+      <guid isPermaLink="true">https://blog.ersione.com/infra-devops/fiserv-aaa-removal-and-naverpay-domain-change</guid>
+      <description>벤더(Fiserv, NaverPay) 측의 변화에 따라 기존 코드를 정리하거나 수정해야 했던 경험을 기록한다. Fiserv settlement endpoint 폐기와, 예전 Nike AAA 인증 체계에서 OAuth 체계로 넘어가며 정리된 인증 경로 제거, 그리고 NaverPay 개발 환경 API 도메인 변경 대응을 함께 다룬다.</description>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>infra-devops</category>
+      <category>change-management</category>
+    </item>
+    <item>
+      <title>Payment logging flag</title>
+      <link>https://blog.ersione.com/infra-devops/payment-logging-flag-propagation-across-services</link>
+      <guid isPermaLink="true">https://blog.ersione.com/infra-devops/payment-logging-flag-propagation-across-services</guid>
+      <description>하나의 라이브러리 변경이 6개 서비스에 전파되는 cross-service 아키텍처 변경을 기록한다. Payment logging flag는 운영 중인 결제 서비스의 로깅 수준을 런타임에 동적으로 전환할 수 있게 만든 시스템이다. 디버깅이 필요할 때 서비스를 재배포하지 않고 로그 레벨을...</description>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>infra-devops</category>
+      <category>observability</category>
+    </item>
+    <item>
+      <title>NaverPay 동시성 파싱 버그 수정</title>
+      <link>https://blog.ersione.com/backend/naverpay-thread-safe-parsing-and-stability-fixes</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/naverpay-thread-safe-parsing-and-stability-fixes</guid>
+      <description>NaverPay 서비스에서 잘못된 파서 사용으로 발생한 동시성 버그와 그 수정 과정을 기록한다. 평소에는 잘 드러나지 않다가 트래픽이 몰릴 때 간헐적 결제 오류와 이상 로그로 드러난 문제를 어떻게 추적하고 바로잡았는지 정리한다.</description>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>naverpay</category>
+    </item>
+    <item>
+      <title>공통 결제 클라이언트 라이브러리 개발</title>
+      <link>https://blog.ersione.com/software-architecture/building-a-shared-payment-client-library</link>
+      <guid isPermaLink="true">https://blog.ersione.com/software-architecture/building-a-shared-payment-client-library</guid>
+      <description>여러 결제 워커 서비스에 흩어져 있던 결제 벤더 연동 코드를 공통 결제 클라이언트 라이브러리로 정리한 과정을 기록한다. KakaoPay v2와는 별개로, KakaoPay client 부트스트랩으로 시작해 여러 벤더 client를 같은 구조로 전파한 흐름을 다룬다.</description>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>software-architecture</category>
+      <category>library</category>
+    </item>
+    <item>
+      <title>double quote 인코딩</title>
+      <link>https://blog.ersione.com/backend/double-quote-encoding-bug-in-payment-api</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/double-quote-encoding-bug-in-payment-api</guid>
+      <description>결제 연동 서비스 API에서 상품명에 큰따옴표(double quote)가 포함된 경우 파싱 에러가 발생하는 문제를 발견하고 수정한 경험을 기록한다. 이후 같은 유형의 버그가 다른 필드에서도 반복될 수 있음을 보여준 사례였다.</description>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>bugfix</category>
+    </item>
+    <item>
+      <title>테스트 커버리지 80%</title>
+      <link>https://blog.ersione.com/backend/how-we-hit-80-percent-test-coverage</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/how-we-hit-80-percent-test-coverage</guid>
+      <description>내부 품질 게이트가 요구한 코드 커버리지 80% 기준을 KakaoPay v2에서 어떻게 달성했는지 기록한다. 단순히 커버리지 수치를 올린 이야기가 아니라, 커버리지 목표가 코드 구조 자체를 어떻게 바꾸게 했는지, 그 과정에서 배운...</description>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>testing</category>
+    </item>
+    <item>
+      <title>Redocly API 문서 빌드</title>
+      <link>https://blog.ersione.com/backend/redocly-api-doc-build-in-ci</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/redocly-api-doc-build-in-ci</guid>
+      <description>KakaoPay v2를 구축하면서 API 문서 관리 방식을 근본적으로 바꾼 경험을 기록한다. 기존 API Blueprint(.apib) 문서 체계에서 Redocly 기반의 자동 빌드 체계로 전환했고, 이것이 API-first 설계 접근을 실현하는 핵심 도구가 되었다.</description>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>api-docs</category>
+    </item>
+    <item>
+      <title>KakaoPay v2 DynamoDB/KMS</title>
+      <link>https://blog.ersione.com/software-architecture/kakaopay-v2-dynamodb-kms-design-decisions</link>
+      <guid isPermaLink="true">https://blog.ersione.com/software-architecture/kakaopay-v2-dynamodb-kms-design-decisions</guid>
+      <description>KakaoPay v2 신규 구축 과정에서 DynamoDB 엔티티 설계와 KMS 키 관리를 어떻게 결정했는지를 기록한다. 데이터 저장 계층의 설계 결정이 이후 서비스 운영과 데이터 호환성에 어떤 영향을 미쳤는지, 그리고 공통 결제 라이브러리의 convention과 동기화해야 했던...</description>
+      <pubDate>Tue, 03 Oct 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>software-architecture</category>
+      <category>dynamodb</category>
+    </item>
+    <item>
+      <title>KakaoPay v2 신규 구축</title>
+      <link>https://blog.ersione.com/software-architecture/building-kakaopay-v2-from-scratch</link>
+      <guid isPermaLink="true">https://blog.ersione.com/software-architecture/building-kakaopay-v2-from-scratch</guid>
+      <description>KakaoPay v2를 처음부터 새로 만든 과정을 남긴다. 왜 v1을 확장하지 않고 v2 계열로 다시 세웠는지, 그리고 그 과정에서 공통 규칙, OpenAPI, 모델링, 벨리데이션, 로깅 구조를 어떻게 정리했는지를 기록한다.</description>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>software-architecture</category>
+      <category>kakaopay</category>
+    </item>
+    <item>
+      <title>SNKRS App KakaoPay 활성화</title>
+      <link>https://blog.ersione.com/backend/enabling-kakaopay-on-snkrs-app</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/enabling-kakaopay-on-snkrs-app</guid>
+      <description>Nike.com에서 이미 동작하던 KakaoPay를 SNKRS App에서도 활성화한 작업을 기록한다. 기술적으로는 공통 결제 라이브러리의 설정 한 줄을 바꾸는 일이었지만, 이 경험이 이후 Payment logging flag 시스템처럼 라이브러리 하나의 변경으로 여러 서비스를...</description>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>kakaopay</category>
+    </item>
+    <item>
+      <title>WebView redirect POST→GET</title>
+      <link>https://blog.ersione.com/backend/webview-redirect-post-to-get-in-payment-registration</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/webview-redirect-post-to-get-in-payment-registration</guid>
+      <description>KakaoPay 결제수단 등록 확인 과정에서 WebView의 redirect 동작 문제를 발견하고 해결한 경험을 기록한다. 모바일 WebView에서 POST redirect가 동작하지 않는 환경이 존재한다는 사실은 문서에 나와 있지 않고, 실제 테스트에서만 발견할 수 있는 문제였다.</description>
+      <pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>troubleshooting</category>
+    </item>
+    <item>
+      <title>저장결제 관리 계층 KakaoPay/Fiserv API 명세</title>
+      <link>https://blog.ersione.com/backend/storedpayments-kakaopay-fiserv-api-contract</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/storedpayments-kakaopay-fiserv-api-contract</guid>
+      <description>저장결제 관리 계층 서비스에 KakaoPay와 Fiserv Billkey 등록을 통합하면서 겪은 API 명세 문제를 기록한다. 벤더마다 '등록 성공', '등록 실패', '등록 취소'의 의미가 다르다는 것을 알게 된 경험이다. 결제 시스템에서 다중 벤더를 통합할 때 공통 API 명세를...</description>
+      <pubDate>Fri, 05 May 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>api-contract</category>
+    </item>
+    <item>
+      <title>KakaoPay 확장: 정기결제·저장결제·환불</title>
+      <link>https://blog.ersione.com/backend/kakaopay-subscription-stored-payment-refund</link>
+      <guid isPermaLink="true">https://blog.ersione.com/backend/kakaopay-subscription-stored-payment-refund</guid>
+      <description>Payment Expansion 프로젝트의 첫 번째 구현 작업을 기록한다. 기존 KakaoPay 서비스에 정기결제, 저장결제, 환불 흐름을 붙이며 저장결제 확장의 출발점을 만들었던 2023년 상반기 작업을 정리한다.</description>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>backend</category>
+      <category>kakaopay</category>
+    </item>
+    <item>
+      <title>글로벌 결제 코어를 수정하면 왜 위험한가</title>
+      <link>https://blog.ersione.com/software-architecture/why-changing-the-global-payment-core-is-risky</link>
+      <guid isPermaLink="true">https://blog.ersione.com/software-architecture/why-changing-the-global-payment-core-is-risky</guid>
+      <description>Payment Expansion 프로젝트에서 가장 먼저 부딪힌 질문은 '어디를 고칠 것인가'였다. 한국 간편결제를 지원하려면 코드를 바꿔야 하는데, 글로벌 결제 코어를 수정하면 전 세계 결제 흐름에 영향을 준다. 이 글은 그 위험성을 구체적으로 정리하고, 우리가 택한 전략 — 로컬...</description>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>payment-core</category>
+      <category>software-architecture</category>
+    </item>
+    <item>
+      <title>한국 결제 시장에서 저장된 결제수단이 왜 필요한가</title>
+      <link>https://blog.ersione.com/retrospective/why-stored-payment-mattered-in-korea</link>
+      <guid isPermaLink="true">https://blog.ersione.com/retrospective/why-stored-payment-mattered-in-korea</guid>
+      <description>2023년 상반기부터 본격화된 한국 결제 확장 프로젝트는 '결제수단 하나 추가'가 아니라, 재구매 경험을 바꾸는 구조적 전환이었다. 이 글은 KakaoPay/NaverPay Stored Payment가 왜 필요한지, 그리고 왜 이 주제가 Payment Expansion 시리즈의 출발점인지 설명한다.</description>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>payment-expansion</category>
+      <category>stored-payment</category>
+      <category>retrospective</category>
+    </item>
     <item>
       <title>컷오버 직후 무엇부터 안정화해야 했나</title>
       <link>https://blog.ersione.com/infra-devops/what-we-stabilized-first-right-after-cutover</link>
