@@ -5,7 +5,7 @@
     <link>https://blog.ersione.com</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Mar 2026 13:55:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 14:38:29 GMT</lastBuildDate>
     <atom:link href="https://blog.ersione.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -314,6 +314,19 @@
       <category>payment-expansion</category>
       <category>backend</category>
       <category>kakaopay</category>
+    </item>
+    <item>
+      <title>왜 우리 서비스는 B3와 W3C TraceContext를 함께 써야 했나</title>
+      <link>https://blog.ersione.com/infra-devops/why-b3-and-tracecontext-still-coexist</link>
+      <guid isPermaLink="true">https://blog.ersione.com/infra-devops/why-b3-and-tracecontext-still-coexist</guid>
+      <description>분산 추적은 Dapper에서 출발해 Zipkin, Jaeger, OpenTelemetry를 거치며 발전했다. 그런데 왜 실무에서는 아직도 B3와 TraceContext를 함께 지원해야 할까.</description>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+      <category>infra-devops</category>
+      <category>observability</category>
+      <category>distributed-tracing</category>
+      <category>opentelemetry</category>
+      <category>w3c-trace-context</category>
+      <category>zipkin</category>
     </item>
     <item>
       <title>WebView redirect POST→GET</title>
