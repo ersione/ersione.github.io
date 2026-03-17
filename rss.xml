@@ -5,7 +5,7 @@
     <link>https://blog.ersione.com</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Mar 2026 17:03:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 17:14:27 GMT</lastBuildDate>
     <atom:link href="https://blog.ersione.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -94,6 +94,27 @@
       <category>sns</category>
       <category>eventbridge</category>
       <category>spring</category>
+    </item>
+    <item>
+      <title>레거시 주문 이력 서비스 현대화</title>
+      <link>https://blog.ersione.com/software-architecture/bloha-modernization</link>
+      <guid isPermaLink="true">https://blog.ersione.com/software-architecture/bloha-modernization</guid>
+      <description>한국 전자상거래법이 요구하는 5년 주문 이력 보관 의무를 이행하던 레거시 주문 이력 서비스를 단계적으로 현대화한 과정을 정리한다.</description>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 GMT</pubDate>
+      <category>e-commerce</category>
+      <category>modernization</category>
+      <category>software-architecture</category>
+    </item>
+    <item>
+      <title>Docker 컨테이너를 non-root로 실행해야 하는 이유</title>
+      <link>https://blog.ersione.com/infra-devops/why-running-containers-as-non-root-matters</link>
+      <guid isPermaLink="true">https://blog.ersione.com/infra-devops/why-running-containers-as-non-root-matters</guid>
+      <description>root로 실행되던 컨테이너를 non-root 사용자로 전환하며 확인한 보안 의미와 Dockerfile 변경 포인트를 정리한다.</description>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 GMT</pubDate>
+      <category>docker</category>
+      <category>container-security</category>
+      <category>devops</category>
+      <category>infra</category>
     </item>
     <item>
       <title>Audit Event 설계: 3단계 진화와 데이터 설계</title>
@@ -331,13 +352,25 @@
       <link>https://blog.ersione.com/infra-devops/why-b3-and-tracecontext-still-coexist</link>
       <guid isPermaLink="true">https://blog.ersione.com/infra-devops/why-b3-and-tracecontext-still-coexist</guid>
       <description>분산 추적은 Dapper에서 출발해 Zipkin, Jaeger, OpenTelemetry를 거치며 발전했다. 그런데 왜 실무에서는 아직도 B3와 TraceContext를 함께 지원해야 할까.</description>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
       <category>infra-devops</category>
       <category>observability</category>
       <category>distributed-tracing</category>
       <category>opentelemetry</category>
       <category>w3c-trace-context</category>
       <category>zipkin</category>
+    </item>
+    <item>
+      <title>온보딩 문서를 준비하며 다시 본 내부 플랫폼의 복잡성</title>
+      <link>https://blog.ersione.com/retrospective/rethinking-onboarding-through-internal-platform-complexity</link>
+      <guid isPermaLink="true">https://blog.ersione.com/retrospective/rethinking-onboarding-through-internal-platform-complexity</guid>
+      <description>내부 플랫폼이 많고 권한이 세분화된 조직에서 엔지니어 온보딩이 어려운 이유는 단순히 문서가 부족해서가 아니었다. 온보딩 문서를 정리하며 다시 보게 된 구조적 복잡성을 돌아본다.</description>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+      <category>retrospective</category>
+      <category>onboarding</category>
+      <category>internal-platform</category>
+      <category>developer-experience</category>
+      <category>organization</category>
     </item>
     <item>
       <title>WebView redirect POST→GET</title>
@@ -399,7 +432,7 @@
       <link>https://blog.ersione.com/dev-environment-tools/nginx-proxy-manager-local-proxy-setup</link>
       <guid isPermaLink="true">https://blog.ersione.com/dev-environment-tools/nginx-proxy-manager-local-proxy-setup</guid>
       <description>여러 로컬 서비스와 개발 서버를 함께 테스트해야 하는 환경에서, Nginx Proxy Manager로 하나의 HTTPS 진입점을 만든 과정을 정리한다.</description>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 GMT</pubDate>
       <category>dev-environment-tools</category>
       <category>nginx-proxy-manager</category>
       <category>reverse-proxy</category>
@@ -412,7 +445,7 @@
       <link>https://blog.ersione.com/dev-environment-tools/zero-trust-local-https-with-mkcert</link>
       <guid isPermaLink="true">https://blog.ersione.com/dev-environment-tools/zero-trust-local-https-with-mkcert</guid>
       <description>사내 SSO와 Secure 쿠키 정책 때문에 localhost HTTP만으로는 재현할 수 없었던 로컬 테스트 환경을 mkcert로 맞춘 과정을 정리한다.</description>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 GMT</pubDate>
       <category>dev-environment-tools</category>
       <category>https</category>
       <category>mkcert</category>
