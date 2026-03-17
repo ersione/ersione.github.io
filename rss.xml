@@ -5,7 +5,7 @@
     <link>https://blog.ersione.com</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Mar 2026 14:38:29 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Mar 2026 17:03:56 GMT</lastBuildDate>
     <atom:link href="https://blog.ersione.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -70,6 +70,17 @@
       <category>performance</category>
       <category>observability</category>
       <category>rest-api</category>
+    </item>
+    <item>
+      <title>MCP와 Agentic Workflow로 POC 기간 단축이 가능할까?</title>
+      <link>https://blog.ersione.com/ai-agents/how-we-shortened-poc-cycle-time-with-mcp</link>
+      <guid isPermaLink="true">https://blog.ersione.com/ai-agents/how-we-shortened-poc-cycle-time-with-mcp</guid>
+      <description>Jira, Confluence, GitHub, Splunk를 AI 에이전트와 연결해 POC를 진행하며, 어떤 작업의 시간을 줄일 수 있었고 무엇은 끝까지 사람이 맡아야 했는지 정리한다.</description>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+      <category>ai</category>
+      <category>mcp</category>
+      <category>agents</category>
+      <category>productivity</category>
     </item>
     <item>
       <title>Pluggable Publisher에서 공유 파이프라인까지</title>
