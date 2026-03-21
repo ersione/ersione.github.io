@@ -5,7 +5,7 @@
     <link>https://blog.ersione.com</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 19 Mar 2026 18:15:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2026 08:56:50 GMT</lastBuildDate>
     <atom:link href="https://blog.ersione.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -94,6 +94,30 @@
       <category>sns</category>
       <category>eventbridge</category>
       <category>spring</category>
+    </item>
+    <item>
+      <title>Databricks Apps를 배포할 때 인증은 어떻게 설계해야 할까</title>
+      <link>https://blog.ersione.com/data-engineering/databricks-apps-production-auth-patterns</link>
+      <guid isPermaLink="true">https://blog.ersione.com/data-engineering/databricks-apps-production-auth-patterns</guid>
+      <description>Databricks Apps를 운영 환경에 배포할 때 왜 개인 토큰을 버리고 Service Principal, secret manager, Unity Catalog 최소 권한 설계로 넘어가야 하는지 정리한다.</description>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate>
+      <category>databricks</category>
+      <category>databricks-apps</category>
+      <category>service-principal</category>
+      <category>secrets-management</category>
+      <category>unity-catalog</category>
+    </item>
+    <item>
+      <title>서비스 개발자를 위한 Databricks 입문</title>
+      <link>https://blog.ersione.com/data-engineering/databricks-for-service-developers</link>
+      <guid isPermaLink="true">https://blog.ersione.com/data-engineering/databricks-for-service-developers</guid>
+      <description>서비스와 백엔드 개발자 관점에서 Databricks를 이해하기 위한 입문 글이다. Lakehouse 구조, Unity Catalog, Delta Lake, Serving Endpoints를 한 흐름으로 설명한다.</description>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
+      <category>databricks</category>
+      <category>lakehouse</category>
+      <category>unity-catalog</category>
+      <category>delta-lake</category>
+      <category>data-engineering</category>
     </item>
     <item>
       <title>레거시 주문 이력 서비스 현대화</title>
