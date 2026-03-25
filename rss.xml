@@ -5,7 +5,7 @@
     <link>https://blog.ersione.com</link>
     <description>Backend Engineer &amp; System Architect — MSA, Kubernetes, Payment Systems</description>
     <language>ko</language>
-    <lastBuildDate>Sat, 21 Mar 2026 08:56:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 17:41:37 GMT</lastBuildDate>
     <atom:link href="https://blog.ersione.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <item>
@@ -72,6 +72,18 @@
       <category>rest-api</category>
     </item>
     <item>
+      <title>팀 문서를 Git으로 옮긴 이유</title>
+      <link>https://blog.ersione.com/software-architecture/why-we-moved-team-docs-to-git</link>
+      <guid isPermaLink="true">https://blog.ersione.com/software-architecture/why-we-moved-team-docs-to-git</guid>
+      <description>팀 문서를 Git으로 옮긴 이유는 단순히 저장 위치를 바꾸기 위해서가 아니었다. Markdown, Mermaid, diff, PR 리뷰를 제대로 활용하고, AI가 참조하기 좋은 형태로 지식을 정리하기 위해서였다.</description>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 GMT</pubDate>
+      <category>documentation</category>
+      <category>knowledge-management</category>
+      <category>architecture</category>
+      <category>mermaid</category>
+      <category>ai</category>
+    </item>
+    <item>
       <title>MCP와 Agentic Workflow로 POC 기간 단축이 가능할까?</title>
       <link>https://blog.ersione.com/ai-agents/how-we-shortened-poc-cycle-time-with-mcp</link>
       <guid isPermaLink="true">https://blog.ersione.com/ai-agents/how-we-shortened-poc-cycle-time-with-mcp</guid>
@@ -94,6 +106,30 @@
       <category>sns</category>
       <category>eventbridge</category>
       <category>spring</category>
+    </item>
+    <item>
+      <title>운영 포털에서 Pendo를 테스트하며 본 것들</title>
+      <link>https://blog.ersione.com/frontend/why-internal-tools-need-product-analytics</link>
+      <guid isPermaLink="true">https://blog.ersione.com/frontend/why-internal-tools-need-product-analytics</guid>
+      <description>사용자가 어디서 막히는지 더 잘 보고 싶어서 운영 포털에 Pendo를 테스트해 봤다. 전환까지 진행한 것은 아니지만, 초기화 타이밍, 커스텀 이벤트, Guide, NPS, Replay 관점에서 무엇을 확인했는지 정리한다.</description>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 GMT</pubDate>
+      <category>frontend</category>
+      <category>react</category>
+      <category>analytics</category>
+      <category>pendo</category>
+      <category>product</category>
+    </item>
+    <item>
+      <title>엔터프라이즈 MFE에서 호스트와 앱의 경계</title>
+      <link>https://blog.ersione.com/software-architecture/host-shell-and-domain-boundaries-in-enterprise-mfe</link>
+      <guid isPermaLink="true">https://blog.ersione.com/software-architecture/host-shell-and-domain-boundaries-in-enterprise-mfe</guid>
+      <description>엔터프라이즈 환경에서 Micro Frontend를 설계할 때 가장 먼저 정해야 하는 것은 호스트 셸과 도메인 앱의 경계다. 무엇을 공통으로 두고 무엇을 각 앱이 소유해야 하는지 정리한다.</description>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 GMT</pubDate>
+      <category>frontend</category>
+      <category>micro-frontend</category>
+      <category>module-federation</category>
+      <category>architecture</category>
+      <category>react</category>
     </item>
     <item>
       <title>Databricks Apps를 배포할 때 인증은 어떻게 설계해야 할까</title>
